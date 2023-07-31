@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Abhibus Busbooking app Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Abhibus Busbooking Test Cases">
+		<classes>
+			<class name="pagetest.Searchbus"></class>
+			
+			<!--<class name="com.crm.qa.testcases.ContactsPageTest"></class>-->
+
+		</classes>
+	</test>
+</suite>

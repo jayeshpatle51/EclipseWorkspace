@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite"  parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="SeleniumPractice.MyAnnotationTransformer"></listener>
+</listeners>
+<test name="demo test">
+
+<classes>
+<class name="Mainproject.simpleproject.Testclass"></class>
+</classes>
+</test>
+
+
+<!--
+<test name="IT Department">  
+<classes>  
+<class name="Mainproject.simpleproject.Xlfile"/>  
+</classes>  
+</test> -->
+ <!-- <test thread-count="5" name="Test">-->
+ <!-- </test> --><!-- Test -->
+ <!-- Suite -->
+</suite>

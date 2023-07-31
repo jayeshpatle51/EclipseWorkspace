@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name= "Test suite" verbose="2">
+<listeners>
+<listener class-name="Generic_methods.TestngListeners"></listener>
+</listeners>
+<parameter name="name" value="Jayesh"/>
+<parameter name="surname" value="patle"/>
+<test name ="Test class1" >
+<parameter name="name" value="Jitendra"/>
+<parameter name="surname" value="patle"/>
+<parameter name="name" value="Gayatri"/>
+<parameter name="surname" value="katre"/>
+<classes>
+<class name="Generic_methods.Testclass1"/>
+
+
+</classes>
+</test>
+
+<test name ="Test class2" >
+
+<classes>
+
+<class name="Generic_methods.Testclass2" />
+
+</classes>
+</test>
+<test name ="Test classes3" >
+
+<classes>
+
+<class name="Generic_methods.Testclass3" />
+
+</classes>
+</test>
+</suite>

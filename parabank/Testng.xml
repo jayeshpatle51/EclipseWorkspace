@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="Parabank Test ">
+<test name="Parabank testclass">
+<classes>
+<class name="parabanktestcases.UserRegistrationTest"></class>
+
+
+</classes>
+</test>
+
+<test name="parabank login Test">
+
+<classes>
+<class name="parabanktestcases.UserLoginTest"></class>
+</classes>
+</test>
+
+<test name="parabank Forgotloginifo Test">
+
+<classes>
+<class name="parabanktestcases.ForgotLoginInfoTest"></class>
+</classes>
+</test>
+
+</suite>

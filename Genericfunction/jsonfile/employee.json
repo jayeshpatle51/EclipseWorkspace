@@ -1,0 +1,12 @@
+{
+"First name":"jayesh",
+"Last name":"Patle",
+ "address":[
+ {"street":"abc",
+  "city":"hydrabad",
+  "state":"TL"},
+  {"street":"xyz",
+  "city":"chennai",
+  "state":"TN"}
+  ]
+  }

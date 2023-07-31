@@ -1,0 +1,177 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "d.gopimanohar@gmail.com",
+    "userPassword": "Gopi@1234"
+}
+HTTP/1.1 200 OK
+Date: Wed, 31 May 2023 19:12:08 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 363
+ETag: W/"16b-KZsb3lKEW7zskiSR8xoocJbTM34"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2JmMDJhOTU2OGMzZTlmYjFmNGY4YmIiLCJ1c2VyRW1haWwiOiJkLmdvcGltYW5vaGFyQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk3MDE0NjQ5MDIsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1NjAzMjgsImV4cCI6MTcxNzExNzkyOH0.lmpXW1zID9BQdcBA83hMtUv94nyUck5HW3RxI1LJdrg",
+    "userId": "63bf02a9568c3e9fb1f4f8bb",
+    "message": "Login Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=Elephant
+				productAddedBy=63bf02a9568c3e9fb1f4f8bb
+				productCategory=Kids
+				productSubCategory=Toy
+				productPrice=30000
+				productDescription=Toys
+				productFor=Kids
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2JmMDJhOTU2OGMzZTlmYjFmNGY4YmIiLCJ1c2VyRW1haWwiOiJkLmdvcGltYW5vaGFyQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk3MDE0NjQ5MDIsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1NjAzMjgsImV4cCI6MTcxNzExNzkyOH0.lmpXW1zID9BQdcBA83hMtUv94nyUck5HW3RxI1LJdrg
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = Toy.jpeg
+				Content-Type: application/octet-stream
+
+				C:\Users\SPURGE\Desktop\Toy.jpeg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Wed, 31 May 2023 19:12:09 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-CTuQnKma4boXrFJIwfBQOmsqU9Q"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "64779c09568c3e9fb17bc9fa",
+    "message": "Product Added Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2JmMDJhOTU2OGMzZTlmYjFmNGY4YmIiLCJ1c2VyRW1haWwiOiJkLmdvcGltYW5vaGFyQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk3MDE0NjQ5MDIsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1NjAzMjgsImV4cCI6MTcxNzExNzkyOH0.lmpXW1zID9BQdcBA83hMtUv94nyUck5HW3RxI1LJdrg
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "India",
+            "productOrderedId": "64779c09568c3e9fb17bc9fa"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Wed, 31 May 2023 19:12:11 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-+FKtHJGyEcYhsFScQYhon2sAWJk"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "64779c0b568c3e9fb17bca00"
+    ],
+    "productOrderId": [
+        "64779c09568c3e9fb17bc9fa"
+    ],
+    "message": "Order Placed Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/64779c09568c3e9fb17bc9fa
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2JmMDJhOTU2OGMzZTlmYjFmNGY4YmIiLCJ1c2VyRW1haWwiOiJkLmdvcGltYW5vaGFyQGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjk3MDE0NjQ5MDIsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1NjAzMjgsImV4cCI6MTcxNzExNzkyOH0.lmpXW1zID9BQdcBA83hMtUv94nyUck5HW3RxI1LJdrg
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 31 May 2023 19:12:11 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}

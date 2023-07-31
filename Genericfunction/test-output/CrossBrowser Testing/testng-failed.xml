@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowser Testing]">
+  <test thread-count="5" name="Crossbrowser1(failed)">
+    <classes>
+      <class name="Generic_methods.Crossbrowser">
+        <methods>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Generic_methods.Crossbrowser -->
+    </classes>
+  </test> <!-- Crossbrowser1(failed) -->
+  <test thread-count="5" name="Crossbrowser2(failed)">
+    <classes>
+      <class name="Generic_methods.Crossbrowser">
+        <methods>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Generic_methods.Crossbrowser -->
+    </classes>
+  </test> <!-- Crossbrowser2(failed) -->
+</suite> <!-- Failed suite [CrossBrowser Testing] -->

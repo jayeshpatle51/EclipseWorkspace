@@ -1,0 +1,8 @@
+<suite name="Abhibus TestSuite">
+<test name="user registration">
+<parameter name="email" value="jayeshpatle51@gmail.com"></parameter>
+<classes>
+<class name="pagetest.Searchbus"></class>
+</classes>
+</test>
+</suite>

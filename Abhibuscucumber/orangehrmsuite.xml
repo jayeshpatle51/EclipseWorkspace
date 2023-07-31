@@ -1,0 +1,11 @@
+
+<suite name="OrangeHRM Regression Test Suite">
+	<test name="Admin Login Test">
+		<classes>
+			<class name="testrunner.runner"></class>
+		</classes>
+	</test>
+
+	<!--<test name="New Employee Registration Test"> <classes> <class name="testrunners.EmployeeRegistrationTest"></class> 
+		</classes> </test> -->
+</suite>
